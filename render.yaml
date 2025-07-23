@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mask-maker
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars: []
